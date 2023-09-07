@@ -9,6 +9,10 @@ A página do tst recebe um número de processo dividido em 6 campos: numeroTst,d
 Na data de criação deste script, o arquivo robots.txt da página não disponibilizava informações sobre rate limit, e não haviam páginas não autorizadas.
 
 Após realizar alguns testes, estabeleci um intervalo de 10 segundos entre requisições a fim de minimizar os redirecionamentos para a pagina de recaptcha.
+
+Atualmente o Script coleta apenas a última atualização do processo.
+
+O resultado do script é um único arquivo JSON com um dicionário aninhando, onde o número do processo é a chave para seu dicionário com suas informações.
 ___
 ## Bibliotecas utilizadas
 **requests_html:** Biblioteca utilizada para realizar as requisições e coletar os dados.
