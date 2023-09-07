@@ -23,7 +23,7 @@ O script atualmente é composto por 6 arquivos:
 - process_number.py
 - connection.py
 - data_scrape.py
-- data_reatment.py
+- data_treatment.py
 - routine.py
 - main.py
 
@@ -50,7 +50,7 @@ Responsável por gerenciar a conexão com a página a ser consultada. Possui as 
 
 - `create_request_object`: Responsável por criar o objeto da requisição; Recebe um número de processo como parâmetro e o submete a função `process_number_to_parts` para obter os campos necessário para a busca.
 
-- `check_page_availability`: Utilizada pela função `create_request_object`, é responsável por checar se a requisição feita acessou a página corretamente ou redirecionada para um Recaptcha.
+- `check_page_availability`: Utilizada pela função `create_request_object`, é responsável por checar se a requisição feita acessou a página corretamente ou foi redirecionada para um Recaptcha.
 
 
 ### data_scrape.py
