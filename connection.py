@@ -22,3 +22,7 @@ class Connection:
   def check_page_availability(self, request):
     if not request.html.find('#googleRecaptcha'):
       return True
+
+  def check_agency(self, url):
+    return "https://consultaprocessual.tst.jus.br/consultaProcessual" in url
+  
