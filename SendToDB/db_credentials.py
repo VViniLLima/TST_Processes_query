@@ -1,6 +1,6 @@
 
-class Db_credencials:
-    def yout_db_credentials(self):
+class DbCredentials:
+    def your_db_credentials(self):
         connection_data = {
             'database':'', 
             'user':'', 
